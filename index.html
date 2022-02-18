@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="nuevas_notas.css">
+    </head>
+    <body>
+
+        <div class="notas-nuevas">
+            <style>
+                @charset "UTF-8";
+.notas-nuevas p {
+  font-size: 10pt;
+  text-align: justify;
+}
+
+.notas-nuevas .nota-titulo.color-texto {
+  color: #852016;
+  text-transform: uppercase;
+  font-size: 12pt;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.notas-nuevas .nota-titulo.color-texto::before {
+  content: "/////////////";
+  margin-right: 0.8rem;
+  letter-spacing: normal;
+  font-weight: normal;
+}
+
+.notas-nuevas .primera-letra {
+  margin-top: -2rem;
+}
+
+.notas-nuevas .primera-letra::first-letter {
+  font-size: 50pt;
+  margin-top: -1rem;
+}
+
+.notas-nuevas blockquote {
+  border-left: 4px solid #e7e7e7;
+  color: #e7e7e7;
+  position: relative;
+  padding-left: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 5px;
+  margin: 3rem 0;
+  margin-left: 10rem;
+}
+
+.notas-nuevas blockquote p {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.notas-nuevas blockquote .frase-destacada-comilla {
+  position: absolute;
+  top: -2.55rem;
+  font-size: 7rem;
+}
+
+.notas-nuevas .cont-cuadro-frase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  gap: 2%;
+}
+
+.notas-nuevas .cont-cuadro-frase > div {
+  width: 100%;
+  min-height: 10rem;
+}
+
+@media (min-width: 768px) {
+  .notas-nuevas .cont-cuadro-frase > div {
+    width: 49%;
+  }
+}
+
+.notas-nuevas .cont-cuadro-frase .cuadro-frase {
+  padding: 3% 6%;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+
+.notas-nuevas .cont-cuadro-frase .cuadro-frase .cuadro-frase--texto {
+  font-size: 13pt;
+  color: #000;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 2rem 0;
+}
+
+.notas-nuevas .cont-cuadro-frase .cuadro-frase hr,
+.notas-nuevas .cont-cuadro-frase .cuadro-frase .cuadro-frase--decorador {
+  max-width: 50%;
+  margin: 5px auto;
+}
+
+.notas-nuevas .cont-cuadro-frase .cuadro-frase .cuadro-frase--decorador {
+  background-color: #fff;
+  height: 1rem;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.notas-nuevas .texto-dos-columnas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2%;
+}
+
+.notas-nuevas .texto-dos-columnas > div {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .notas-nuevas .texto-dos-columnas > div {
+    width: 50%;
+  }
+}
+
+.notas-nuevas .texto-dos-columnas .ul-paloma {
+  padding: 0;
+  list-style-type: none;
+}
+
+.notas-nuevas .texto-dos-columnas .ul-paloma li {
+  display: table;
+}
+
+.notas-nuevas .texto-dos-columnas .ul-paloma li::before {
+  content: "✔";
+  display: table-cell;
+  padding-right: 5px;
+}
+/*# sourceMappingURL=nuevas_notas.css.map */
+            </style>
+            <h5 class="nota-titulo color-texto">introducción</h5>
+            <p class="primera-letra">
+                Los partos distócicos causan graves pérdidas económicas, ya
+                que afectan la producción de becerros y disminuye la
+                fertilidad de las vacas.
+            </p>
+            <p>
+                Esto es un motivo más de preocupación para los ganaderos. Por lo
+                cual, se ha buscado la prevención mediante una adecuada
+                selección de los sementales y el buen manejo nutricional del
+                hato. Aún con esto, un buen porcentaje de vacas y vaquillas
+                experimentan diversos grados de dificultad para parir todos los
+                años.
+            </p>
+            <p>
+                Con mucha frecuencia me entero de que alguno de mis amigos
+                ganaderos perdió un ternero o una de sus vacas durante el parto
+                o inmediatamente después del parto. Cada vez que pasa esto, de
+                manera inmediata, pienso en las pérdidas económicas que esto
+                significa, pero también en el sufrimiento que tuvieron que
+                padecer estos animales debido a la falta de atención o a una
+                atención inadecuada.
+            </p>
+
+            <div class="cont-cuadro-frase">
+                <div class="cuadro-texto-normal">
+                    <p>
+                        Por esta razón considero muy conveniente que las
+                        personas que
+                        trabajan en un rancho ganadero reciban un amplio
+                        entrenamiento
+                        sobre el manejo correcto de la vaca y el ternero durante
+                        el
+                        parto y también sobre la posterior atención del recién
+                        nacido.
+                    </p>
+                    <p>
+                        Sin embargo, quienes actualmente tienen a su cargo el
+                        cuidado de
+                        las vacas, generalmente no están suficientemente
+                        capacitados
+                        para atender partos distócicos y no se ha valorado la
+                        importancia que tiene este conocimiento y el beneficio
+                        que
+                        significa.
+                    </p>
+                </div>
+                <div class="cuadro-frase">
+                    <span class="cuadro-frase--decorador"></span>
+                    <p class="cuadro-frase--texto">Ver una vaquilla o una vaca
+                        que está pasando por la
+                        agonía de un parto distócico es una situación que
+                        provoca angustia, especialmente si no sabemos cuándo y
+                        cómo ayudar, porque, si se deja pasar el tiempo
+                        esperando por ayuda sin intervenir, se pone en peligro
+                        la vida de las vacas y los terneros<span>&rdquo;.</span>
+                    </p>
+                    <span class="cuadro-frase--decorador"></span>
+                    <hr>
+                </div>
+            </div>
+            <p>
+                Otra situación que me preocupa cada vez más, es que las
+                intervenciones que se hacen durante la atención de las distocias
+                son realizadas sin el apoyo de la anestesia epidural. Las vacas
+                se someten a cruentas manipulaciones que les causan lesiones
+                graves y dolor. Esto se puede evitar si se capacita también a
+                las personas en el uso correcto de este valioso recurso.
+            </p>
+            <p>
+                Atender una distocia, implica hacer lo necesario de manera
+                oportuna, con el mínimo daño para la vaca y el ternero, para lo
+                cual, es importante contar al menos con el instrumental básico
+                necesario ( cadenas obstétricas de acero inoxidable o correas
+                obstétricas de nylon y gel lubricante).
+            </p>
+            <p>
+                El entrenamiento se debe iniciar con el conocimiento de la
+                anatomía del aparato reproductor de la vaca y la fisiología del
+                parto normal ya que la mayoría de las vacas y vaquillas culminan
+                su gestación con un parto normal que no necesita ayuda. El
+                desconocimiento de esto puede ocasionar que se haga una
+                intervención innecesaria, convirtiendo un parto normal en
+                distócico. Por lo tanto, debe quedar muy claro que, solo se debe
+                intervenir cuando es absolutamente necesario.
+            </p>
+            <blockquote>
+                <span class="frase-destacada-comilla">&ldquo;</span>
+                <p>
+                    La habilidad para identificar a las vacas que no pueden
+                    parir
+                    por si mismas es el resultado de un buen entrenamiento y
+                    experiencia.
+                </p>
+            </blockquote>
+            <p>
+                Con la observación frecuente y minuciosa de los partos se
+                aprende
+                a identificar el momento preciso en el cual una vaca necesita
+                ayuda. Se recomienda observar cuidadosamente a todas las vacas,
+                ser paciente, ordenado y mantener la calma.
+            </p>
+            <p>
+                No se debe intervenir antes de tiempo. Un error muy común es
+                jalar al becerro en cuanto las patas aparecen por la vulva,
+                antes de que el cérvix esté suficientemente dilatado y la vagina
+                y la vulva se hayan relajado en toda su extensión. Esto puede
+                causar lesiones graves, laceraciones, ruptura del cérvix, la
+                vagina y la vulva, prolapsos e infecciones.
+            </p>
+            <p>
+                Se debe evaluar el progreso del parto cada 30 minutos para
+                identificar cualquiera de los signos que indican que la vaca
+                está en un parto distócico y que se debe actuar inmediatamente.
+            </p>
+            <p>
+                Si identificamos alguna de las siguientes situaciones, es
+                momento de intervenir:
+            </p>
+            <div class="texto-dos-columnas">
+                <div>
+                    <ul class="ul-paloma">
+                        <li>
+                            Cuando la primera bolsa (fuente de las aguas) ha
+                            sido visible durante más de 2 horas y no ha habido
+                            progreso.
+                        </li>
+                        <li>
+                            Cuando no ocurre el parto 1 hora después de la
+                            ruptura de la segunda bolsa.
+                        </li>
+                        <li>
+                            Cuando la vaca ha estado pujando constantemente sin
+                            descanso durante más de 30 minutos y no ha habido
+                            progreso.
+                        </li>
+                        <li>
+                            Cuando observamos que una vaca ha iniciado su
+                            proceso de parto y lleva más de 3 horas, pujando,
+                            caminando con la cola extendida y asume la posición
+                            de orinar.
+                        </li>
+                        <li>
+                            En estas situaciónes debemos revisar a la vaca para
+                            identificar si la cría presenta una posición
+                            anormal, si hay estrechez, bloqueo del canal de
+                            parto o torsión del útero.
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="ul-paloma">
+
+                        <li>
+                            Cuando hay sangre presente en las membranas fetales
+                            o se muestran cotiledones libres. Esto significa que
+                            ya se ha roto la unión materno fetal y el becerro ya
+                            no recibe oxigeno de su madre a través del cordón
+                            umbilical.
+                        </li>
+                        <li>
+                            Cuando la lengua del becerro se torna morada y no
+                            vuelve a su color rosa después de la contracción.
+                            Cuando el reflejo lingual del becerro es débil o
+                            nulo. Cuando hay meconio presente en el canal de
+                            parto. Estos signos indican de que el becerro está
+                            sufriendo hipoxia y necesita salir a respirar lo más
+                            pronto posible.
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <blockquote>
+                <span class="frase-destacada-comilla">&ldquo;</span>
+                <p>Una vez que identificamos que una vaca necesita ayuda debemos
+                    buscar la manera de hacerlo bien y en la medida de lo
+                    posible seguir las siguientes recomendaciones: </p>
+            </blockquote>
+
+            <ol>
+                <li>Sujetar correctamente a la vaca para evitar lesiones.
+                </li>
+                <li>Sujetar la cola al cuello del animal para evitar la
+                    contaminación durante la asistencia.</li>
+                <li>Para evitar la entrada de microorganismos dentro del
+                    tracto reproductivo, el lugar debe estar limpio y seco,
+                    también se debe desinfectar todo el equipo obstétrico antes
+                    de su empleo. </li>
+                <li>Lavar con agua y jabón el área perineal y la vulva. Secar
+                    con toallas limpias. </li>
+                <li>Lavarse bien las manos y los brazos antes de ejecutar la
+                    exploración. La limpieza nunca debe considerarse excesiva.
+                    Las manos o el equipo sucio pueden causar infecciones
+                    agudas.</li>
+                <li>Usar guantes de látex y guantes de plástico para
+                    protegerse del contagio con microorganismos potenciales de
+                    zoonosis.</li>
+                <li>Usar un lubricante adecuado base agua carboximeticelulosa
+                    para facilitar el examen y la extracción del feto (No usar
+                    jabones ni aceites). </li>
+                <li>Examinar la vulva y el vestíbulo en busca de traumatismos
+                    causados por manipulaciones previas.</li>
+                <li>Revisar la naturaleza de las secreciones (olor, textura y
+                    color).</li>
+                <li>Colocarse un guante de plástico e introducir la mano
+                    bien lubricada dentro de la vagina para determinar el grado
+                    de relajación de la vulva y los ligamentos pélvicos. Para
+                    saber esto debemos colocar la mano sobre la pared vaginal,
+                    deslizándola hacia el frente. Cuando el cérvix está
+                    totalmente dilatado se percibe apenas como una delgada banda
+                    al final de la vagina. Si la banda o anillo es muy notorio
+                    significa que el cérvix no está suficientemente dilatado.
+                    Hacer un masaje suave puede ayudar a que el cérvix se dilate
+                    y se complete la relajación del canal del parto.</li>
+                <li>Si el becerro no se encuentra dentro del canal pélvico y
+                    la bolsa de las aguas no se ha roto, se debe esperar un poco
+                    y dejar que la vaca haga su labor, antes de volver a
+                    intervenir. </li>
+                <li>Si la bolsa ya se rompió, se debe determinar la cantidad
+                    de fluido lubricante presente. Si hay poco fluido y el
+                    becerro se siente seco, debemos aplicar más lubricante.</li>
+                <li>Una vez que identificamos la necesidad de manipular a la
+                    vaca para resolver un parto distócico, es muy importante
+                    saber si la cría está viva o muerta para determinar el nivel
+                    de urgencia y el tipo de ayuda que se debe dar. </li>
+                <li>Cuando una vaca requiere un tipo de asistencia compleja,
+                    es muy importante aplicar una anestesia epidural para
+                    eliminar el dolor y el tenesmo, esto proporciona bienestar
+                    al animal y facilita la manipulación del operador. </li>
+                <li>Cuando el becerro está vivo, reacciona a la acción de
+                    jalar o pellizcar sus patas, al tocar los ojos o al colocar
+                    los dedos dentro de su boca. Si la presentación es caudal,
+                    al introducir un dedo dentro del ano, reacciona con la
+                    constricción del esfínter. La ausencia de signos vitales, el
+                    desprendimiento de pelo o la fetidez, indican que el becerro
+                    está muerto. </li>
+                <li>Un siguiente paso es determinar si el becerro puede
+                    pasar a través del canal pélvico. el tipo de presentación,
+                    la posición del feto y si es posible acomodar, rotar y jalar
+                    para extraerlo. Conocer la relación entre el tamaño del feto
+                    y el canal de parto es un paso importante en el examen
+                    obstétrico. Forzar un becerro grande a través de una pelvis
+                    estrecha puede provocar la muerte del feto, parálisis de la
+                    vaca o hasta su muerte. Un becerro muy grande representa una
+                    seria dificultad de parto y requiere la presencia de un
+                    veterinario con experiencia en cirugía obstétrica para que
+                    realice una operación cesárea. </li>
+                <li>¡PRECAUCIÒN! No se debe aplicar oxitocina a las vacas si
+                    no se ha corregido antes la posición o postura anormal del
+                    feto y se encuentre dilatado y lubricado adecuadamente el
+                    canal de parto.</li>
+                <li>La atencion del ternero recien nacido es también muy
+                    importante. Durante el parto el cordón umbilical se rompe y
+                    el aporte de oxígeno que el becerro recibía a través de la
+                    placenta se corta, esto incrementa los niveles de bióxido de
+                    carbono en la sangre y estimula los centros respiratorios
+                    del cerebro del becerro. En este momento su supervivencia
+                    depende del rápido inicio del funcionamiento de los pulmones
+                    y de la actividad corporal. </li>
+                <li>Cuando el becerro tarda en iniciar su respiración o
+                    muestra dificultad para respirar se recomienda retirar
+                    rápidamente el moco presente en la nariz y la boca y
+                    provocar el inicio de la respiración estimulando la mucosa
+                    nasal con una pajilla de pasto. Esto provoca el reflejo de
+                    estornudo y tos que ayudan a expulsar las flemas y aclaran
+                    el tracto respiratorio.</li>
+                <li>Frotar al ternero con una toalla de material absorbente
+                    ligeramente áspera estimula la circulación sanguínea y
+                    efectúa la limpieza de suciedad y sangre.</li>
+                <li>Desinfectar el ombligo, luego cerrarlo con cinta
+                    umbilical o pinzas, dentro de los primeros 15 minutos
+                    posteriores al nacimiento. Usar tintura de iodo o cualquier
+                    desinfectante que momifique el tejido.</li>
+                <li>Después del parto los terneros se deben llevar a un área
+                    limpia para evitar el contagio de enfermedades infecciosas
+                    como la diarrea.</li>
+                <li>Ordeñar la vaca lo más pronto posible después del parto
+                    y alimentar al ternero con una cantidad de calostro
+                    equivalente al 10% de su peso (4 litros aprox.) dentro de
+                    las primeras seis horas de vida. </li>
+                <li>Una vez terminada la atención del parto, las vacas se
+                    deben mover a áreas limpias para evitar el contacto con
+                    membranas fetales y secreciones que puedan ocasionar el
+                    desarrollo de infecciones uterinas.</li>
+
+            </ol>
+            <p>
+                Independientemente del nivel de estudios de las personas, el
+                entrenamiento debe enfatizar la importancia de aprender a
+                atender a las vacas siguiendo instrucciones precisas de buenas
+                prácticas clínicas y buscando el logro de los más altos
+                estándares de calidad en el trabajo.
+            </p>
+        </div>
+        <img src="../uploads/Upload-620f2b482d66b-18022022.jpeg" alt="">
+
+    </body>
+</html>

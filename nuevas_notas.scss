@@ -1,0 +1,116 @@
+$color-gris: #e7e7e7;
+.notas-nuevas {
+    // tamaño de letra en las notas con cualquier id
+    p {
+        font-size: 10pt;
+        text-align: justify;
+    }
+    // titulo nota
+    .nota-titulo {
+        &.color-texto {
+            color: #852016;
+            text-transform: uppercase;
+            font-size: 12pt;
+            letter-spacing: 3px;
+            font-weight: bold;
+            &::before {
+                content: "/////////////";
+                margin-right: 0.8rem;
+                letter-spacing: normal;
+                font-weight: normal;
+            }
+        }
+    }
+    // tamaño de la primera letra
+    .primera-letra {
+        margin-top: -2rem;
+        &::first-letter {
+            font-size: 50pt;
+            margin-top: -1rem;
+        }
+    }
+    // ->  [ cita en comilla ]
+    blockquote {
+        border-left: 4px solid #e7e7e7;
+        color: $color-gris;
+        position: relative;
+        padding-left: 2.5rem;
+        padding-top: 2rem;
+        padding-bottom: 5px;
+        margin: 3rem 0;
+        margin-left: 10rem;
+
+        p {
+            font-size: 14pt;
+            font-weight: bold;
+            text-align: justify;
+        }
+        .frase-destacada-comilla {
+            position: absolute;
+            top: -2.55rem;
+            font-size: 7rem;
+        }
+    }
+    // cuadro gris
+    .cont-cuadro-frase {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        gap: 2%;
+        & > div {
+            width: 100%;
+            min-height: 10rem;
+            @media (min-width: 768px) {
+                width: 49%;
+            }
+        }
+        .cuadro-frase {
+            padding: 3% 6%;
+            text-align: center;
+            background-color: $color-gris;
+            .cuadro-frase--texto {
+                font-size: 13pt;
+                color: #000;
+                font-weight: 600;
+                line-height: 1.2;
+                margin: 2rem 0;
+            }
+
+            hr,
+            .cuadro-frase--decorador {
+                max-width: 50%;
+                margin: 5px auto;
+            }
+            .cuadro-frase--decorador {
+                background-color: #fff;
+                height: 1rem;
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    // texto a dos columnas
+    .texto-dos-columnas {
+        display: flex;
+        gap: 2%;
+        > div {
+            width: 100%;
+            @media (min-width: 768px) {
+                width: 50%;
+            }
+        }
+        .ul-paloma {
+            padding: 0;
+            list-style-type: none;
+            li {
+                display: table;
+                &::before {
+                    content: "✔";
+                    display: table-cell;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}
